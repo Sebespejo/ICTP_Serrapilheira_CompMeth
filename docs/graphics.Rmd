@@ -1,6 +1,6 @@
 ---
 title: 'Exporting graphics using R'
-date: "July 7th 2022"
+date: "July 14th 2022"
 output:
   html_document:
     df_print: paged
@@ -25,7 +25,7 @@ comm_df <- data.frame(sp = 1:length(comm_sum), n = comm_sum)
 
 # Creating the graphic
 
-```{r plot-create, fig.show='asis'}
+```{r plot-create}
 # Defining the theme
 n_breaks <- hist(comm_df$n, plot = FALSE)$breaks
 
