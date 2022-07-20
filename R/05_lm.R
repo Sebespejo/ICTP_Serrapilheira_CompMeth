@@ -63,7 +63,7 @@ par(mfrow = c(1, 1))
 library(fitdistrplus)
 
 data("groundbeef")
-?groundbeef
+git?groundbeef
 str(groundbeef)
 
 
