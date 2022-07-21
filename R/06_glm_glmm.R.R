@@ -6,6 +6,10 @@
 # --------------------------------------------------#
 
 # Loading needed packages
+install.packages("lme4")
+install.packages("merTools")
+install.packages("bbmle")
+
 library(dplyr)
 library(lme4)
 library(merTools)
